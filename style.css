@@ -1,0 +1,107 @@
+
+/* Configurações gerais */
+body {
+    background-color: #151515;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 80px;
+}
+
+/* Título principal */
+body > h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+/* Subtítulo */
+body > h2 {
+    text-align: center;
+    color: #bdbdbd;
+}
+
+/* Imagem */
+img {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+/* Menu no topo */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: #222;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+/* Títulos do menu */
+nav h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+/* Links */
+nav a {
+    color: #00d9ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Efeito ao passar o mouse */
+nav a:hover {
+    color: #ff4444;
+}
+
+/* Organização do conteúdo */
+.conteudo {
+    display: flex;
+    gap: 25px;
+    margin: 30px;
+    align-items: flex-start;
+}
+
+/* Conteúdo principal */
+main {
+    flex: 3;
+    line-height: 1.7;
+}
+
+/* Barra lateral */
+aside {
+    flex: 1;
+    background-color: #252525;
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+}
+
+aside h2 {
+    color: #00d9ff;
+    font-size: 22px;
+}
+
+aside ul {
+    padding-left: 20px;
+    line-height: 2;
+}
+
+/* Rodapé */
+footer {
+    background-color: #222;
+    color: #aaa;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
